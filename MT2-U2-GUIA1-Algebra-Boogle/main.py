@@ -3,3 +3,8 @@
 for A in [True, False]:
  for B in [True, False]:
   print(A," AND ", B," = ", A and B)
+
+# OR
+for A in [True, False]:
+ for B in [True, False]:
+  print(A," OR ", B," = ", A or B)
