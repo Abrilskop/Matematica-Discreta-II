@@ -14,3 +14,9 @@ for A in [True, False]:
 for A in [True, False]:
  for B in [True, False]:
   print(A," NOT ", B," = ", not B)
+
+# Ejercicio 1
+print("X | Y |XvY|¬(x?y)|(x?y)?¬(x?y)")
+for X in [1, 0]:
+  for Y in [1, 0]:
+    print(X,"|",Y,"|",X or Y,"|",int(not(X and Y)),"   | ",int((X or Y) and (not(X and Y))))
