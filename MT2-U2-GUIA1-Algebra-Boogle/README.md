@@ -25,4 +25,20 @@ La función `and` en Python es un operador lógico que se utiliza para combinar 
 - `False and False` → `False`
 
 ## ¿Que es iterar?
-"Irriterar" se refiere a repetir un proceso varias veces. En el contexto de programación, significa pasar por cada elemento de una colección, como una lista. Por ejemplo, en el bucle for, se itera sobre los valores de la lista uno por uno.
+"Irriterar" se refiere a repetir un proceso varias veces. En el contexto de programación, significa pasar por cada elemento de una colección, como una lista. Por ejemplo, en el bucle for, se itera sobre los valores de la lista uno por uno. 
+```
+Inicio
+ └── for A in [True, False]:
+        ├── A = True
+        │   └── for B in [True, False]:
+        │           ├── B = True
+        │           │    └── Imprime: True AND True = True
+        │           └── B = False
+        │                └── Imprime: True AND False = False
+        └── A = False
+            └── for B in [True, False]:
+                    ├── B = True
+                    │    └── Imprime: False AND True = False
+                    └── B = False
+                         └── Imprime: False AND False = False
+```
