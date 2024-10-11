@@ -12,5 +12,5 @@ Este repositorio está organizado de la siguiente manera:
 
 ## 🗂 Temas Cubiertos
 
-1. Teoría de Grafos Avanzad
+1. Algebra de Boole
 
