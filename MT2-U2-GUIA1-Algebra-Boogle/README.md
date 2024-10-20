@@ -43,13 +43,13 @@ Inicio
                          └── Imprime: False AND False = False
 ```
 ## Ejercicios de la GUIA:
-Ejercicio 1: Realizar una tabla similar para la siguiente ecuación lógica (x∨y)∧¬(x∧y), la tabla debe
+### Ejercicio 1: Realizar una tabla similar para la siguiente ecuación lógica (x∨y)∧¬(x∧y), la tabla debe
 ser similar a la imagen: 
 
-Ejercicio 2: Similarmente realizar el mismo ejercicio para el siguiente problema: (𝑥 ∧ (¬𝑦 ∧ (𝑧 ∨
+### Ejercicio 2: Similarmente realizar el mismo ejercicio para el siguiente problema: (𝑥 ∧ (¬𝑦 ∧ (𝑧 ∨
 (𝑦 ∧ ¬𝑧)))) ∨¬z
 
-Ejercicio 2 parte 2: 
+### Ejercicio 2 parte 2: 
 Supongamos que las tablas de verdad están en una lista como sigue:
 L = [[False, False, False], [False, True, True],
  [True, False, True], [True, True, True]]
@@ -57,3 +57,7 @@ Esta lista representa la operación OR.
 Ahora, consideramos el siguiente código:
 Que pasa, si ejecutamos el codigo anterior de la siguiente manera:
 `imprimir_tabla_verdad(L,['A', 'B', 'A or B'])`
+### Ejercicio 3: Aplique el mismo código para el ejercicio 2. 
+### Ejercicio 4: Utilizando el teorema de De Morgan, simplifica la expresión F = (̅𝐴̅̅+̅̅̅̅𝐵̅).(𝐶̅̅̅+̅̅̅̅𝐷̅) y luego
+implementa un programa en Python para verificar la equivalencia entre la expresión original y la
+expresión simplificada (utiliza el algoritmo anterior)
